@@ -1,0 +1,513 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition">
+	<dd:Name xmlns:dd="http://schemas.datadynamics.com/reporting/2005/02/reportdefinition">Report.rdlx</dd:Name>
+	<Body>
+		<Height>29.7cm</Height>
+		<ReportItems>
+			<FixedPage Name="FixedPage1">
+				<Pages>
+					<Page>
+						<ReportItems>
+							<Table Name="Table1">
+								<Top>2.963333cm</Top>
+								<Left>0.02645833cm</Left>
+								<Width>13.54667cm</Width>
+								<Height>1.799167cm</Height>
+								<Style>
+									<FontFamily>メイリオ</FontFamily>
+								</Style>
+								<ZIndex>1</ZIndex>
+								<DataSetName>DataSet1</DataSetName>
+								<Header>
+									<RepeatOnNewPage>true</RepeatOnNewPage>
+									<TableRows>
+										<TableRow>
+											<Height>0.753346cm</Height>
+											<TableCells>
+												<TableCell>
+													<ReportItems>
+														<Textbox Name="TextBox1">
+															<Style>
+																<BackgroundColor>Gainsboro</BackgroundColor>
+																<FontFamily>メイリオ</FontFamily>
+																<PaddingBottom>2pt</PaddingBottom>
+																<PaddingLeft>2pt</PaddingLeft>
+																<PaddingRight>2pt</PaddingRight>
+																<PaddingTop>2pt</PaddingTop>
+																<TextAlign>Center</TextAlign>
+																<VerticalAlign>Middle</VerticalAlign>
+																<BorderColor>
+																	<Default>Silver</Default>
+																</BorderColor>
+																<BorderStyle>
+																	<Default>Solid</Default>
+																</BorderStyle>
+															</Style>
+															<Value>売上日</Value>
+														</Textbox>
+													</ReportItems>
+												</TableCell>
+												<TableCell>
+													<ReportItems>
+														<Textbox Name="TextBox2">
+															<Style>
+																<BackgroundColor>Gainsboro</BackgroundColor>
+																<FontFamily>メイリオ</FontFamily>
+																<PaddingBottom>2pt</PaddingBottom>
+																<PaddingLeft>2pt</PaddingLeft>
+																<PaddingRight>2pt</PaddingRight>
+																<PaddingTop>2pt</PaddingTop>
+																<TextAlign>Center</TextAlign>
+																<VerticalAlign>Middle</VerticalAlign>
+																<BorderColor>
+																	<Default>Silver</Default>
+																</BorderColor>
+																<BorderStyle>
+																	<Default>Solid</Default>
+																</BorderStyle>
+															</Style>
+															<Value>伝票番号</Value>
+														</Textbox>
+													</ReportItems>
+												</TableCell>
+												<TableCell>
+													<ReportItems>
+														<Textbox Name="TextBox3">
+															<Style>
+																<BackgroundColor>Gainsboro</BackgroundColor>
+																<FontFamily>メイリオ</FontFamily>
+																<PaddingBottom>2pt</PaddingBottom>
+																<PaddingLeft>2pt</PaddingLeft>
+																<PaddingRight>2pt</PaddingRight>
+																<PaddingTop>2pt</PaddingTop>
+																<TextAlign>Center</TextAlign>
+																<VerticalAlign>Middle</VerticalAlign>
+																<BorderColor>
+																	<Default>Silver</Default>
+																</BorderColor>
+																<BorderStyle>
+																	<Default>Solid</Default>
+																</BorderStyle>
+															</Style>
+															<Value>顧客名</Value>
+														</Textbox>
+													</ReportItems>
+												</TableCell>
+												<TableCell>
+													<ReportItems>
+														<Textbox Name="TextBox13">
+															<Style>
+																<BackgroundColor>Gainsboro</BackgroundColor>
+																<FontFamily>メイリオ</FontFamily>
+																<PaddingBottom>2pt</PaddingBottom>
+																<PaddingLeft>2pt</PaddingLeft>
+																<PaddingRight>2pt</PaddingRight>
+																<PaddingTop>2pt</PaddingTop>
+																<TextAlign>Center</TextAlign>
+																<VerticalAlign>Middle</VerticalAlign>
+																<BorderColor>
+																	<Default>Silver</Default>
+																</BorderColor>
+																<BorderStyle>
+																	<Default>Solid</Default>
+																</BorderStyle>
+															</Style>
+															<Value>商品名</Value>
+														</Textbox>
+													</ReportItems>
+												</TableCell>
+												<TableCell>
+													<ReportItems>
+														<Textbox Name="TextBox10">
+															<Style>
+																<BackgroundColor>Gainsboro</BackgroundColor>
+																<FontFamily>メイリオ</FontFamily>
+																<PaddingBottom>2pt</PaddingBottom>
+																<PaddingLeft>2pt</PaddingLeft>
+																<PaddingRight>2pt</PaddingRight>
+																<PaddingTop>2pt</PaddingTop>
+																<TextAlign>Center</TextAlign>
+																<VerticalAlign>Middle</VerticalAlign>
+																<BorderColor>
+																	<Default>Silver</Default>
+																</BorderColor>
+																<BorderStyle>
+																	<Default>Solid</Default>
+																</BorderStyle>
+															</Style>
+															<Value>売上金額</Value>
+														</Textbox>
+													</ReportItems>
+												</TableCell>
+											</TableCells>
+										</TableRow>
+									</TableRows>
+								</Header>
+								<Details>
+									<TableRows>
+										<TableRow>
+											<Height>1.045821cm</Height>
+											<TableCells>
+												<TableCell>
+													<ReportItems>
+														<Textbox Name="TextBox4">
+															<Style>
+																<Format>d</Format>
+																<PaddingBottom>2pt</PaddingBottom>
+																<PaddingLeft>2pt</PaddingLeft>
+																<PaddingRight>2pt</PaddingRight>
+																<PaddingTop>2pt</PaddingTop>
+																<VerticalAlign>Middle</VerticalAlign>
+																<BorderColor>
+																	<Default>Silver</Default>
+																</BorderColor>
+																<BorderStyle>
+																	<Default>Solid</Default>
+																</BorderStyle>
+															</Style>
+															<DataElementName>transaction_date</DataElementName>
+															<Value>=Fields!transaction_date.Value</Value>
+														</Textbox>
+													</ReportItems>
+												</TableCell>
+												<TableCell>
+													<ReportItems>
+														<Textbox Name="TextBox5">
+															<Style>
+																<PaddingBottom>2pt</PaddingBottom>
+																<PaddingLeft>2pt</PaddingLeft>
+																<PaddingRight>2pt</PaddingRight>
+																<PaddingTop>2pt</PaddingTop>
+																<VerticalAlign>Middle</VerticalAlign>
+																<BorderColor>
+																	<Default>Silver</Default>
+																</BorderColor>
+																<BorderStyle>
+																	<Default>Solid</Default>
+																</BorderStyle>
+															</Style>
+															<DataElementName>slip_no</DataElementName>
+															<Value>=Fields!slip_no.Value</Value>
+														</Textbox>
+													</ReportItems>
+												</TableCell>
+												<TableCell>
+													<ReportItems>
+														<Textbox Name="TextBox6">
+															<Style>
+																<PaddingBottom>2pt</PaddingBottom>
+																<PaddingLeft>2pt</PaddingLeft>
+																<PaddingRight>2pt</PaddingRight>
+																<PaddingTop>2pt</PaddingTop>
+																<VerticalAlign>Middle</VerticalAlign>
+																<BorderColor>
+																	<Default>Silver</Default>
+																</BorderColor>
+																<BorderStyle>
+																	<Default>Solid</Default>
+																</BorderStyle>
+															</Style>
+															<DataElementName>customer_name</DataElementName>
+															<Value>=Fields!customer_name.Value</Value>
+														</Textbox>
+													</ReportItems>
+												</TableCell>
+												<TableCell>
+													<ReportItems>
+														<Textbox Name="TextBox14">
+															<Style>
+																<PaddingBottom>2pt</PaddingBottom>
+																<PaddingLeft>2pt</PaddingLeft>
+																<PaddingRight>2pt</PaddingRight>
+																<PaddingTop>2pt</PaddingTop>
+																<VerticalAlign>Middle</VerticalAlign>
+																<BorderColor>
+																	<Default>Silver</Default>
+																</BorderColor>
+																<BorderStyle>
+																	<Default>Solid</Default>
+																</BorderStyle>
+															</Style>
+															<DataElementName>item_name</DataElementName>
+															<Value>=Fields!item_name.Value</Value>
+														</Textbox>
+													</ReportItems>
+												</TableCell>
+												<TableCell>
+													<ReportItems>
+														<Textbox Name="TextBox11">
+															<Style>
+																<Format>c</Format>
+																<PaddingBottom>2pt</PaddingBottom>
+																<PaddingLeft>2pt</PaddingLeft>
+																<PaddingRight>2pt</PaddingRight>
+																<PaddingTop>2pt</PaddingTop>
+																<TextAlign>Right</TextAlign>
+																<VerticalAlign>Middle</VerticalAlign>
+																<BorderColor>
+																	<Default>Silver</Default>
+																</BorderColor>
+																<BorderStyle>
+																	<Default>Solid</Default>
+																</BorderStyle>
+															</Style>
+															<DataElementName>amount</DataElementName>
+															<Value>=Fields!amount.Value</Value>
+														</Textbox>
+													</ReportItems>
+												</TableCell>
+											</TableCells>
+										</TableRow>
+									</TableRows>
+								</Details>
+								<dd:PreventOrphanedHeader xmlns:dd="http://schemas.datadynamics.com/reporting/2005/02/reportdefinition">true</dd:PreventOrphanedHeader>
+								<dd:FixedHeight xmlns:dd="http://schemas.datadynamics.com/reporting/2005/02/reportdefinition">14.9225cm</dd:FixedHeight>
+								<dd:FixedWidth xmlns:dd="http://schemas.datadynamics.com/reporting/2005/02/reportdefinition">13.73717cm</dd:FixedWidth>
+								<dd:OverflowName xmlns:dd="http://schemas.datadynamics.com/reporting/2005/02/reportdefinition">OverflowPlaceHolder1</dd:OverflowName>
+								<TableColumns>
+									<TableColumn>
+										<Width>2.203072cm</Width>
+									</TableColumn>
+									<TableColumn>
+										<Width>1.869274cm</Width>
+									</TableColumn>
+									<TableColumn>
+										<Width>3.204468cm</Width>
+									</TableColumn>
+									<TableColumn>
+										<Width>3.816432cm</Width>
+									</TableColumn>
+									<TableColumn>
+										<Width>2.453422cm</Width>
+									</TableColumn>
+								</TableColumns>
+							</Table>
+							<Textbox Name="TextBox7">
+								<Top>0.1852083cm</Top>
+								<Left>9.260417cm</Left>
+								<Width>9.181cm</Width>
+								<Height>1.8256cm</Height>
+								<Style>
+									<FontFamily>メイリオ</FontFamily>
+									<FontSize>36pt</FontSize>
+									<FontStyle>Normal</FontStyle>
+									<FontWeight>400</FontWeight>
+									<PaddingBottom>2pt</PaddingBottom>
+									<PaddingLeft>2pt</PaddingLeft>
+									<PaddingRight>2pt</PaddingRight>
+									<PaddingTop>2pt</PaddingTop>
+									<TextAlign>Center</TextAlign>
+									<VerticalAlign>Middle</VerticalAlign>
+								</Style>
+								<ZIndex>2</ZIndex>
+								<Value>売上明細表</Value>
+							</Textbox>
+							<OverflowPlaceHolder Name="OverflowPlaceHolder1">
+								<Height>14.9225cm</Height>
+								<Left>13.75333cm</Left>
+								<Top>2.963333cm</Top>
+								<Width>13.54667cm</Width>
+							</OverflowPlaceHolder>
+						</ReportItems>
+						<PaperOrientation>Landscape</PaperOrientation>
+						<Width>29.7cm</Width>
+						<Height>21cm</Height>
+						<LeftMargin>1.2cm</LeftMargin>
+						<TopMargin>1.2cm</TopMargin>
+						<RightMargin>1.2cm</RightMargin>
+						<BottomMargin>1.2cm</BottomMargin>
+					</Page>
+				</Pages>
+				<DataSetName>DataSet1</DataSetName>
+			</FixedPage>
+		</ReportItems>
+	</Body>
+	<BottomMargin>2.5cm</BottomMargin>
+	<LeftMargin>2.5cm</LeftMargin>
+	<RightMargin>2.5cm</RightMargin>
+	<TopMargin>2.5cm</TopMargin>
+	<PageHeight>29.7cm</PageHeight>
+	<PageWidth>21cm</PageWidth>
+	<Width>21cm</Width>
+	<DataSources>
+		<DataSource Name="DataSource1">
+			<ConnectionProperties>
+				<ConnectString>jsondata=[
+{"transaction_date":"2025-08-01","slip_no":"G001","super_category_code":"A01","super_category_name":"生鮮品","category_code":"A0101","category_name":"野菜","item_code":"VEGE001","item_name":"有機トマト","quantity":5,"unit_price":90,"amount":450,"customer_code":"C001","customer_name":"株式会社みどり"},
+{"transaction_date":"2025-08-01","slip_no":"G001","super_category_code":"A01","super_category_name":"生鮮品","category_code":"A0102","category_name":"肉類","item_code":"MEAT001","item_name":"国産豚ロース","quantity":2,"unit_price":480,"amount":960,"customer_code":"C001","customer_name":"株式会社みどり"},
+{"transaction_date":"2025-08-01","slip_no":"G001","super_category_code":"A01","super_category_name":"生鮮品","category_code":"A0103","category_name":"卵・卵製品","item_code":"EGGS001","item_name":"たまご Lサイズ","quantity":1,"unit_price":220,"amount":220,"customer_code":"C001","customer_name":"株式会社みどり"},
+{"transaction_date":"2025-08-01","slip_no":"G001","super_category_code":"A02","super_category_name":"加工食品","category_code":"A0201","category_name":"水産加工品","item_code":"FISH001","item_name":"紀州南高梅干し","quantity":1,"unit_price":580,"amount":580,"customer_code":"C001","customer_name":"株式会社みどり"},
+{"transaction_date":"2025-08-01","slip_no":"G001","super_category_code":"A03","super_category_name":"米・穀類","category_code":"A0301","category_name":"精米","item_code":"RICE001","item_name":"秋田こまち米 5kg","quantity":1,"unit_price":1980,"amount":1980,"customer_code":"C001","customer_name":"株式会社みどり"},
+{"transaction_date":"2025-08-01","slip_no":"G001","super_category_code":"A04","super_category_name":"飲料","category_code":"A0401","category_name":"茶・コーヒー","item_code":"DRINK001","item_name":"静岡煎茶","quantity":2,"unit_price":400,"amount":800,"customer_code":"C001","customer_name":"株式会社みどり"},
+{"transaction_date":"2025-08-01","slip_no":"G001","super_category_code":"A05","super_category_name":"菓子","category_code":"A0501","category_name":"和菓子","item_code":"SNACK001","item_name":"信州味噌せんべい","quantity":2,"unit_price":160,"amount":320,"customer_code":"C001","customer_name":"株式会社みどり"},
+{"transaction_date":"2025-08-01","slip_no":"G001","super_category_code":"A04","super_category_name":"飲料","category_code":"A0402","category_name":"ジュース類","item_code":"DRINK002","item_name":"青森りんごジュース","quantity":2,"unit_price":210,"amount":420,"customer_code":"C001","customer_name":"株式会社みどり"},
+{"transaction_date":"2025-08-01","slip_no":"G001","super_category_code":"A02","super_category_name":"加工食品","category_code":"A0202","category_name":"調味料","item_code":"SEASON001","item_name":"信州味噌","quantity":2,"unit_price":320,"amount":640,"customer_code":"C001","customer_name":"株式会社みどり"},
+{"transaction_date":"2025-08-01","slip_no":"G001","super_category_code":"A01","super_category_name":"生鮮品","category_code":"A0101","category_name":"野菜","item_code":"VEGE003","item_name":"有機きゅうり","quantity":4,"unit_price":70,"amount":280,"customer_code":"C001","customer_name":"株式会社みどり"},
+{"transaction_date":"2025-08-05","slip_no":"G002","super_category_code":"A02","super_category_name":"加工食品","category_code":"A0202","category_name":"調味料","item_code":"SEASON002","item_name":"淡路島たまねぎドレッシング","quantity":1,"unit_price":390,"amount":390,"customer_code":"C002","customer_name":"山田商店"},
+{"transaction_date":"2025-08-05","slip_no":"G002","super_category_code":"A02","super_category_name":"加工食品","category_code":"A0201","category_name":"水産加工品","item_code":"FISH002","item_name":"焼き鮭ほぐし","quantity":2,"unit_price":260,"amount":520,"customer_code":"C002","customer_name":"山田商店"},
+{"transaction_date":"2025-08-05","slip_no":"G002","super_category_code":"A05","super_category_name":"菓子","category_code":"A0501","category_name":"和菓子","item_code":"SNACK002","item_name":"小倉あんどら焼き","quantity":3,"unit_price":150,"amount":450,"customer_code":"C002","customer_name":"山田商店"},
+{"transaction_date":"2025-08-05","slip_no":"G002","super_category_code":"A03","super_category_name":"米・穀類","category_code":"A0301","category_name":"精米","item_code":"RICE002","item_name":"新潟こしひかり 2kg","quantity":1,"unit_price":850,"amount":850,"customer_code":"C002","customer_name":"山田商店"},
+{"transaction_date":"2025-08-05","slip_no":"G002","super_category_code":"A01","super_category_name":"生鮮品","category_code":"A0103","category_name":"卵・卵製品","item_code":"EGGS002","item_name":"温泉たまご","quantity":2,"unit_price":120,"amount":240,"customer_code":"C002","customer_name":"山田商店"},
+{"transaction_date":"2025-08-05","slip_no":"G002","super_category_code":"A02","super_category_name":"加工食品","category_code":"A0201","category_name":"水産加工品","item_code":"FISH003","item_name":"いわし蒲焼","quantity":4,"unit_price":110,"amount":440,"customer_code":"C002","customer_name":"山田商店"},
+{"transaction_date":"2025-08-05","slip_no":"G002","super_category_code":"A01","super_category_name":"生鮮品","category_code":"A0102","category_name":"肉類","item_code":"MEAT002","item_name":"奥羽牛肩ロース","quantity":1,"unit_price":980,"amount":980,"customer_code":"C002","customer_name":"山田商店"},
+{"transaction_date":"2025-08-05","slip_no":"G002","super_category_code":"A01","super_category_name":"生鮮品","category_code":"A0102","category_name":"肉類","item_code":"MEAT003","item_name":"宮崎地鶏もも肉","quantity":2,"unit_price":650,"amount":1300,"customer_code":"C002","customer_name":"山田商店"},
+{"transaction_date":"2025-08-05","slip_no":"G002","super_category_code":"A04","super_category_name":"飲料","category_code":"A0401","category_name":"茶・コーヒー","item_code":"DRINK003","item_name":"有機緑茶ペットボトル","quantity":6,"unit_price":130,"amount":780,"customer_code":"C002","customer_name":"山田商店"},
+{"transaction_date":"2025-08-05","slip_no":"G002","super_category_code":"A01","super_category_name":"生鮮品","category_code":"A0101","category_name":"野菜","item_code":"VEGE004","item_name":"淡路島たまねぎ","quantity":5,"unit_price":80,"amount":400,"customer_code":"C002","customer_name":"山田商店"},
+{"transaction_date":"2025-08-05","slip_no":"G002","super_category_code":"A03","super_category_name":"米・穀類","category_code":"A0301","category_name":"精米","item_code":"RICE003","item_name":"ササニシキ 5kg","quantity":1,"unit_price":2100,"amount":2100,"customer_code":"C002","customer_name":"山田商店"},
+{"transaction_date":"2025-08-05","slip_no":"G002","super_category_code":"A05","super_category_name":"菓子","category_code":"A0501","category_name":"和菓子","item_code":"SNACK003","item_name":"白あんまんじゅう","quantity":5,"unit_price":140,"amount":700,"customer_code":"C002","customer_name":"山田商店"},
+{"transaction_date":"2025-08-05","slip_no":"G002","super_category_code":"A02","super_category_name":"加工食品","category_code":"A0202","category_name":"調味料","item_code":"SEASON003","item_name":"九州醤油","quantity":2,"unit_price":280,"amount":560,"customer_code":"C002","customer_name":"山田商店"},
+{"transaction_date":"2025-08-05","slip_no":"G002","super_category_code":"A02","super_category_name":"加工食品","category_code":"A0201","category_name":"水産加工品","item_code":"FISH004","item_name":"昆布巻き","quantity":3,"unit_price":150,"amount":450,"customer_code":"C002","customer_name":"山田商店"},
+{"transaction_date":"2025-08-05","slip_no":"G002","super_category_code":"A01","super_category_name":"生鮮品","category_code":"A0101","category_name":"野菜","item_code":"VEGE005","item_name":"京野菜ミックス","quantity":2,"unit_price":300,"amount":600,"customer_code":"C002","customer_name":"山田商店"},
+{"transaction_date":"2025-08-05","slip_no":"G002","super_category_code":"A01","super_category_name":"生鮮品","category_code":"A0103","category_name":"卵・卵製品","item_code":"EGGS003","item_name":"うずら卵","quantity":3,"unit_price":100,"amount":300,"customer_code":"C002","customer_name":"山田商店"},
+{"transaction_date":"2025-08-05","slip_no":"G002","super_category_code":"A05","super_category_name":"菓子","category_code":"A0501","category_name":"和菓子","item_code":"SNACK004","item_name":"抹茶カステラ","quantity":2,"unit_price":210,"amount":420,"customer_code":"C002","customer_name":"山田商店"},
+{"transaction_date":"2025-08-05","slip_no":"G002","super_category_code":"A03","super_category_name":"米・穀類","category_code":"A0302","category_name":"もち米","item_code":"RICE004","item_name":"もち米 2kg","quantity":1,"unit_price":700,"amount":700,"customer_code":"C002","customer_name":"山田商店"},
+{"transaction_date":"2025-08-05","slip_no":"G002","super_category_code":"A02","super_category_name":"加工食品","category_code":"A0202","category_name":"調味料","item_code":"SEASON004","item_name":"沖縄塩","quantity":3,"unit_price":80,"amount":240,"customer_code":"C002","customer_name":"山田商店"},
+{"transaction_date":"2025-08-05","slip_no":"G002","super_category_code":"A02","super_category_name":"加工食品","category_code":"A0201","category_name":"水産加工品","item_code":"FISH005","item_name":"焼きたらこ","quantity":2,"unit_price":280,"amount":560,"customer_code":"C002","customer_name":"山田商店"},
+{"transaction_date":"2025-08-05","slip_no":"G002","super_category_code":"A01","super_category_name":"生鮮品","category_code":"A0102","category_name":"肉類","item_code":"MEAT004","item_name":"和牛すき焼き用","quantity":1,"unit_price":1800,"amount":1800,"customer_code":"C002","customer_name":"山田商店"},
+{"transaction_date":"2025-08-05","slip_no":"G002","super_category_code":"A02","super_category_name":"加工食品","category_code":"A0203","category_name":"乳製品","item_code":"DAIRY001","item_name":"北海道牛乳","quantity":2,"unit_price":180,"amount":360,"customer_code":"C002","customer_name":"山田商店"},
+{"transaction_date":"2025-08-05","slip_no":"G002","super_category_code":"A04","super_category_name":"飲料","category_code":"A0402","category_name":"ジュース類","item_code":"DRINK004","item_name":"信州りんごサイダー","quantity":3,"unit_price":150,"amount":450,"customer_code":"C002","customer_name":"山田商店"},
+{"transaction_date":"2025-08-10","slip_no":"G003","super_category_code":"A01","super_category_name":"生鮮品","category_code":"A0101","category_name":"野菜","item_code":"VEGE006","item_name":"加賀れんこん","quantity":4,"unit_price":120,"amount":480,"customer_code":"C003","customer_name":"有限会社さくら"},
+{"transaction_date":"2025-08-10","slip_no":"G003","super_category_code":"A01","super_category_name":"生鮮品","category_code":"A0103","category_name":"卵・卵製品","item_code":"EGGS004","item_name":"だし巻き卵","quantity":2,"unit_price":200,"amount":400,"customer_code":"C003","customer_name":"有限会社さくら"},
+{"transaction_date":"2025-08-10","slip_no":"G003","super_category_code":"A02","super_category_name":"加工食品","category_code":"A0203","category_name":"乳製品","item_code":"DAIRY002","item_name":"ヨーグルト プレーン","quantity":3,"unit_price":120,"amount":360,"customer_code":"C003","customer_name":"有限会社さくら"},
+{"transaction_date":"2025-08-10","slip_no":"G003","super_category_code":"A04","super_category_name":"飲料","category_code":"A0402","category_name":"ジュース類","item_code":"DRINK005","item_name":"青森りんごジュース","quantity":2,"unit_price":210,"amount":420,"customer_code":"C003","customer_name":"有限会社さくら"},
+{"transaction_date":"2025-08-10","slip_no":"G003","super_category_code":"A01","super_category_name":"生鮮品","category_code":"A0101","category_name":"野菜","item_code":"VEGE007","item_name":"有機きゅうり","quantity":4,"unit_price":70,"amount":280,"customer_code":"C003","customer_name":"有限会社さくら"},
+{"transaction_date":"2025-08-10","slip_no":"G003","super_category_code":"A02","super_category_name":"加工食品","category_code":"A0202","category_name":"調味料","item_code":"SEASON005","item_name":"淡路島たまねぎドレッシング","quantity":1,"unit_price":390,"amount":390,"customer_code":"C003","customer_name":"有限会社さくら"},
+{"transaction_date":"2025-08-10","slip_no":"G003","super_category_code":"A02","super_category_name":"加工食品","category_code":"A0201","category_name":"水産加工品","item_code":"FISH006","item_name":"焼き鮭ほぐし","quantity":2,"unit_price":260,"amount":520,"customer_code":"C003","customer_name":"有限会社さくら"},
+{"transaction_date":"2025-08-10","slip_no":"G003","super_category_code":"A05","super_category_name":"菓子","category_code":"A0501","category_name":"和菓子","item_code":"SNACK005","item_name":"小倉あんどら焼き","quantity":3,"unit_price":150,"amount":450,"customer_code":"C003","customer_name":"有限会社さくら"},
+{"transaction_date":"2025-08-10","slip_no":"G003","super_category_code":"A03","super_category_name":"米・穀類","category_code":"A0301","category_name":"精米","item_code":"RICE005","item_name":"新潟こしひかり 2kg","quantity":1,"unit_price":850,"amount":850,"customer_code":"C003","customer_name":"有限会社さくら"},
+{"transaction_date":"2025-08-10","slip_no":"G003","super_category_code":"A01","super_category_name":"生鮮品","category_code":"A0103","category_name":"卵・卵製品","item_code":"EGGS005","item_name":"温泉たまご","quantity":2,"unit_price":120,"amount":240,"customer_code":"C003","customer_name":"有限会社さくら"},
+{"transaction_date":"2025-08-10","slip_no":"G003","super_category_code":"A02","super_category_name":"加工食品","category_code":"A0201","category_name":"水産加工品","item_code":"FISH007","item_name":"いわし蒲焼","quantity":4,"unit_price":110,"amount":440,"customer_code":"C003","customer_name":"有限会社さくら"},
+{"transaction_date":"2025-08-10","slip_no":"G003","super_category_code":"A01","super_category_name":"生鮮品","category_code":"A0102","category_name":"肉類","item_code":"MEAT005","item_name":"奥羽牛肩ロース","quantity":1,"unit_price":980,"amount":980,"customer_code":"C003","customer_name":"有限会社さくら"},
+{"transaction_date":"2025-08-10","slip_no":"G003","super_category_code":"A01","super_category_name":"生鮮品","category_code":"A0102","category_name":"肉類","item_code":"MEAT006","item_name":"宮崎地鶏もも肉","quantity":2,"unit_price":650,"amount":1300,"customer_code":"C003","customer_name":"有限会社さくら"},
+{"transaction_date":"2025-08-10","slip_no":"G003","super_category_code":"A04","super_category_name":"飲料","category_code":"A0401","category_name":"茶・コーヒー","item_code":"DRINK006","item_name":"有機緑茶ペットボトル","quantity":6,"unit_price":130,"amount":780,"customer_code":"C003","customer_name":"有限会社さくら"},
+{"transaction_date":"2025-08-10","slip_no":"G003","super_category_code":"A01","super_category_name":"生鮮品","category_code":"A0101","category_name":"野菜","item_code":"VEGE008","item_name":"淡路島たまねぎ","quantity":5,"unit_price":80,"amount":400,"customer_code":"C003","customer_name":"有限会社さくら"},
+{"transaction_date":"2025-08-10","slip_no":"G003","super_category_code":"A03","super_category_name":"米・穀類","category_code":"A0301","category_name":"精米","item_code":"RICE006","item_name":"ササニシキ 5kg","quantity":1,"unit_price":2100,"amount":2100,"customer_code":"C003","customer_name":"有限会社さくら"},
+{"transaction_date":"2025-08-10","slip_no":"G003","super_category_code":"A05","super_category_name":"菓子","category_code":"A0501","category_name":"和菓子","item_code":"SNACK006","item_name":"白あんまんじゅう","quantity":5,"unit_price":140,"amount":700,"customer_code":"C003","customer_name":"有限会社さくら"},
+{"transaction_date":"2025-08-10","slip_no":"G003","super_category_code":"A02","super_category_name":"加工食品","category_code":"A0202","category_name":"調味料","item_code":"SEASON006","item_name":"九州醤油","quantity":2,"unit_price":280,"amount":560,"customer_code":"C003","customer_name":"有限会社さくら"},
+{"transaction_date":"2025-08-10","slip_no":"G003","super_category_code":"A02","super_category_name":"加工食品","category_code":"A0201","category_name":"水産加工品","item_code":"FISH008","item_name":"昆布巻き","quantity":3,"unit_price":150,"amount":450,"customer_code":"C003","customer_name":"有限会社さくら"},
+{"transaction_date":"2025-08-10","slip_no":"G003","super_category_code":"A01","super_category_name":"生鮮品","category_code":"A0101","category_name":"野菜","item_code":"VEGE009","item_name":"京野菜ミックス","quantity":2,"unit_price":300,"amount":600,"customer_code":"C003","customer_name":"有限会社さくら"},
+{"transaction_date":"2025-08-10","slip_no":"G003","super_category_code":"A01","super_category_name":"生鮮品","category_code":"A0103","category_name":"卵・卵製品","item_code":"EGGS006","item_name":"うずら卵","quantity":3,"unit_price":100,"amount":300,"customer_code":"C003","customer_name":"有限会社さくら"},
+{"transaction_date":"2025-08-10","slip_no":"G003","super_category_code":"A05","super_category_name":"菓子","category_code":"A0501","category_name":"和菓子","item_code":"SNACK007","item_name":"抹茶カステラ","quantity":2,"unit_price":210,"amount":420,"customer_code":"C003","customer_name":"有限会社さくら"},
+{"transaction_date":"2025-08-10","slip_no":"G003","super_category_code":"A03","super_category_name":"米・穀類","category_code":"A0302","category_name":"もち米","item_code":"RICE007","item_name":"もち米 2kg","quantity":1,"unit_price":700,"amount":700,"customer_code":"C003","customer_name":"有限会社さくら"},
+{"transaction_date":"2025-08-10","slip_no":"G003","super_category_code":"A02","super_category_name":"加工食品","category_code":"A0202","category_name":"調味料","item_code":"SEASON007","item_name":"沖縄塩","quantity":3,"unit_price":80,"amount":240,"customer_code":"C003","customer_name":"有限会社さくら"},
+{"transaction_date":"2025-08-10","slip_no":"G003","super_category_code":"A02","super_category_name":"加工食品","category_code":"A0201","category_name":"水産加工品","item_code":"FISH009","item_name":"焼きたらこ","quantity":2,"unit_price":280,"amount":560,"customer_code":"C003","customer_name":"有限会社さくら"},
+{"transaction_date":"2025-08-10","slip_no":"G003","super_category_code":"A01","super_category_name":"生鮮品","category_code":"A0102","category_name":"肉類","item_code":"MEAT007","item_name":"和牛すき焼き用","quantity":1,"unit_price":1800,"amount":1800,"customer_code":"C003","customer_name":"有限会社さくら"},
+{"transaction_date":"2025-08-10","slip_no":"G003","super_category_code":"A02","super_category_name":"加工食品","category_code":"A0203","category_name":"乳製品","item_code":"DAIRY003","item_name":"北海道牛乳","quantity":2,"unit_price":180,"amount":360,"customer_code":"C003","customer_name":"有限会社さくら"},
+{"transaction_date":"2025-08-10","slip_no":"G003","super_category_code":"A04","super_category_name":"飲料","category_code":"A0402","category_name":"ジュース類","item_code":"DRINK007","item_name":"信州りんごサイダー","quantity":3,"unit_price":150,"amount":450,"customer_code":"C003","customer_name":"有限会社さくら"},
+{"transaction_date":"2025-08-10","slip_no":"G003","super_category_code":"A01","super_category_name":"生鮮品","category_code":"A0101","category_name":"野菜","item_code":"VEGE010","item_name":"加賀れんこん","quantity":4,"unit_price":120,"amount":480,"customer_code":"C003","customer_name":"有限会社さくら"},
+{"transaction_date":"2025-08-15","slip_no":"G004","super_category_code":"A01","super_category_name":"生鮮品","category_code":"A0103","category_name":"卵・卵製品","item_code":"EGGS007","item_name":"だし巻き卵","quantity":2,"unit_price":200,"amount":400,"customer_code":"C004","customer_name":"田中青果店"},
+{"transaction_date":"2025-08-15","slip_no":"G004","super_category_code":"A05","super_category_name":"菓子","category_code":"A0501","category_name":"和菓子","item_code":"SNACK008","item_name":"黒糖まんじゅう","quantity":4,"unit_price":170,"amount":680,"customer_code":"C004","customer_name":"田中青果店"},
+{"transaction_date":"2025-08-15","slip_no":"G004","super_category_code":"A03","super_category_name":"米・穀類","category_code":"A0301","category_name":"精米","item_code":"RICE008","item_name":"北海道ななつぼし 2kg","quantity":1,"unit_price":900,"amount":900,"customer_code":"C004","customer_name":"田中青果店"},
+{"transaction_date":"2025-08-15","slip_no":"G004","super_category_code":"A01","super_category_name":"生鮮品","category_code":"A0101","category_name":"野菜","item_code":"VEGE011","item_name":"信州きゅうり","quantity":3,"unit_price":80,"amount":240,"customer_code":"C004","customer_name":"田中青果店"},
+{"transaction_date":"2025-08-15","slip_no":"G004","super_category_code":"A04","super_category_name":"飲料","category_code":"A0401","category_name":"茶・コーヒー","item_code":"DRINK008","item_name":"静岡煎茶","quantity":2,"unit_price":400,"amount":800,"customer_code":"C004","customer_name":"田中青果店"},
+{"transaction_date":"2025-08-15","slip_no":"G004","super_category_code":"A02","super_category_name":"加工食品","category_code":"A0202","category_name":"調味料","item_code":"SEASON008","item_name":"信州味噌","quantity":2,"unit_price":320,"amount":640,"customer_code":"C004","customer_name":"田中青果店"},
+{"transaction_date":"2025-08-15","slip_no":"G004","super_category_code":"A02","super_category_name":"加工食品","category_code":"A0201","category_name":"水産加工品","item_code":"FISH010","item_name":"紀州南高梅干し","quantity":1,"unit_price":580,"amount":580,"customer_code":"C004","customer_name":"田中青果店"},
+{"transaction_date":"2025-08-15","slip_no":"G004","super_category_code":"A03","super_category_name":"米・穀類","category_code":"A0301","category_name":"精米","item_code":"RICE009","item_name":"秋田こまち米 5kg","quantity":1,"unit_price":1980,"amount":1980,"customer_code":"C004","customer_name":"田中青果店"},
+{"transaction_date":"2025-08-15","slip_no":"G004","super_category_code":"A01","super_category_name":"生鮮品","category_code":"A0101","category_name":"野菜","item_code":"VEGE012","item_name":"有機ピーマン","quantity":2,"unit_price":110,"amount":220,"customer_code":"C004","customer_name":"田中青果店"},
+{"transaction_date":"2025-08-15","slip_no":"G004","super_category_code":"A04","super_category_name":"飲料","category_code":"A0402","category_name":"ジュース類","item_code":"DRINK009","item_name":"青森りんごジュース","quantity":2,"unit_price":210,"amount":420,"customer_code":"C004","customer_name":"田中青果店"},
+{"transaction_date":"2025-08-15","slip_no":"G004","super_category_code":"A02","super_category_name":"加工食品","category_code":"A0202","category_name":"調味料","item_code":"SEASON009","item_name":"淡路島たまねぎドレッシング","quantity":1,"unit_price":390,"amount":390,"customer_code":"C004","customer_name":"田中青果店"},
+{"transaction_date":"2025-08-15","slip_no":"G004","super_category_code":"A02","super_category_name":"加工食品","category_code":"A0201","category_name":"水産加工品","item_code":"FISH011","item_name":"焼き鮭ほぐし","quantity":2,"unit_price":260,"amount":520,"customer_code":"C004","customer_name":"田中青果店"},
+{"transaction_date":"2025-08-15","slip_no":"G004","super_category_code":"A05","super_category_name":"菓子","category_code":"A0501","category_name":"和菓子","item_code":"SNACK009","item_name":"小倉あんどら焼き","quantity":3,"unit_price":150,"amount":450,"customer_code":"C004","customer_name":"田中青果店"},
+{"transaction_date":"2025-08-15","slip_no":"G004","super_category_code":"A03","super_category_name":"米・穀類","category_code":"A0301","category_name":"精米","item_code":"RICE010","item_name":"新潟こしひかり 2kg","quantity":1,"unit_price":850,"amount":850,"customer_code":"C004","customer_name":"田中青果店"},
+{"transaction_date":"2025-08-15","slip_no":"G004","super_category_code":"A01","super_category_name":"生鮮品","category_code":"A0103","category_name":"卵・卵製品","item_code":"EGGS008","item_name":"温泉たまご","quantity":2,"unit_price":120,"amount":240,"customer_code":"C004","customer_name":"田中青果店"},
+{"transaction_date":"2025-08-15","slip_no":"G004","super_category_code":"A02","super_category_name":"加工食品","category_code":"A0201","category_name":"水産加工品","item_code":"FISH012","item_name":"いわし蒲焼","quantity":4,"unit_price":110,"amount":440,"customer_code":"C004","customer_name":"田中青果店"},
+{"transaction_date":"2025-08-15","slip_no":"G004","super_category_code":"A01","super_category_name":"生鮮品","category_code":"A0102","category_name":"肉類","item_code":"MEAT008","item_name":"奥羽牛肩ロース","quantity":1,"unit_price":980,"amount":980,"customer_code":"C004","customer_name":"田中青果店"},
+{"transaction_date":"2025-08-15","slip_no":"G004","super_category_code":"A01","super_category_name":"生鮮品","category_code":"A0102","category_name":"肉類","item_code":"MEAT009","item_name":"宮崎地鶏もも肉","quantity":2,"unit_price":650,"amount":1300,"customer_code":"C004","customer_name":"田中青果店"},
+{"transaction_date":"2025-08-15","slip_no":"G004","super_category_code":"A04","super_category_name":"飲料","category_code":"A0401","category_name":"茶・コーヒー","item_code":"DRINK010","item_name":"有機緑茶ペットボトル","quantity":6,"unit_price":130,"amount":780,"customer_code":"C004","customer_name":"田中青果店"},
+{"transaction_date":"2025-08-15","slip_no":"G004","super_category_code":"A01","super_category_name":"生鮮品","category_code":"A0101","category_name":"野菜","item_code":"VEGE013","item_name":"淡路島たまねぎ","quantity":5,"unit_price":80,"amount":400,"customer_code":"C004","customer_name":"田中青果店"},
+{"transaction_date":"2025-08-20","slip_no":"G005","super_category_code":"A03","super_category_name":"米・穀類","category_code":"A0301","category_name":"精米","item_code":"RICE011","item_name":"ササニシキ 5kg","quantity":1,"unit_price":2100,"amount":2100,"customer_code":"C005","customer_name":"佐藤ストア"},
+{"transaction_date":"2025-08-20","slip_no":"G005","super_category_code":"A05","super_category_name":"菓子","category_code":"A0501","category_name":"和菓子","item_code":"SNACK010","item_name":"白あんまんじゅう","quantity":5,"unit_price":140,"amount":700,"customer_code":"C005","customer_name":"佐藤ストア"},
+{"transaction_date":"2025-08-20","slip_no":"G005","super_category_code":"A02","super_category_name":"加工食品","category_code":"A0202","category_name":"調味料","item_code":"SEASON010","item_name":"九州醤油","quantity":2,"unit_price":280,"amount":560,"customer_code":"C005","customer_name":"佐藤ストア"},
+{"transaction_date":"2025-08-20","slip_no":"G005","super_category_code":"A02","super_category_name":"加工食品","category_code":"A0201","category_name":"水産加工品","item_code":"FISH013","item_name":"昆布巻き","quantity":3,"unit_price":150,"amount":450,"customer_code":"C005","customer_name":"佐藤ストア"},
+{"transaction_date":"2025-08-20","slip_no":"G005","super_category_code":"A01","super_category_name":"生鮮品","category_code":"A0101","category_name":"野菜","item_code":"VEGE014","item_name":"京野菜ミックス","quantity":2,"unit_price":300,"amount":600,"customer_code":"C005","customer_name":"佐藤ストア"},
+{"transaction_date":"2025-08-20","slip_no":"G005","super_category_code":"A01","super_category_name":"生鮮品","category_code":"A0103","category_name":"卵・卵製品","item_code":"EGGS009","item_name":"うずら卵","quantity":3,"unit_price":100,"amount":300,"customer_code":"C005","customer_name":"佐藤ストア"},
+{"transaction_date":"2025-08-20","slip_no":"G005","super_category_code":"A05","super_category_name":"菓子","category_code":"A0501","category_name":"和菓子","item_code":"SNACK011","item_name":"抹茶カステラ","quantity":2,"unit_price":210,"amount":420,"customer_code":"C005","customer_name":"佐藤ストア"},
+{"transaction_date":"2025-08-20","slip_no":"G005","super_category_code":"A03","super_category_name":"米・穀類","category_code":"A0302","category_name":"もち米","item_code":"RICE012","item_name":"もち米 2kg","quantity":1,"unit_price":700,"amount":700,"customer_code":"C005","customer_name":"佐藤ストア"},
+{"transaction_date":"2025-08-20","slip_no":"G005","super_category_code":"A02","super_category_name":"加工食品","category_code":"A0202","category_name":"調味料","item_code":"SEASON011","item_name":"沖縄塩","quantity":3,"unit_price":80,"amount":240,"customer_code":"C005","customer_name":"佐藤ストア"},
+{"transaction_date":"2025-08-20","slip_no":"G005","super_category_code":"A02","super_category_name":"加工食品","category_code":"A0201","category_name":"水産加工品","item_code":"FISH014","item_name":"焼きたらこ","quantity":2,"unit_price":280,"amount":560,"customer_code":"C005","customer_name":"佐藤ストア"},
+{"transaction_date":"2025-08-20","slip_no":"G005","super_category_code":"A01","super_category_name":"生鮮品","category_code":"A0102","category_name":"肉類","item_code":"MEAT010","item_name":"和牛すき焼き用","quantity":1,"unit_price":1800,"amount":1800,"customer_code":"C005","customer_name":"佐藤ストア"},
+{"transaction_date":"2025-08-20","slip_no":"G005","super_category_code":"A02","super_category_name":"加工食品","category_code":"A0203","category_name":"乳製品","item_code":"DAIRY004","item_name":"北海道牛乳","quantity":2,"unit_price":180,"amount":360,"customer_code":"C005","customer_name":"佐藤ストア"},
+{"transaction_date":"2025-08-20","slip_no":"G005","super_category_code":"A04","super_category_name":"飲料","category_code":"A0402","category_name":"ジュース類","item_code":"DRINK011","item_name":"信州りんごサイダー","quantity":3,"unit_price":150,"amount":450,"customer_code":"C005","customer_name":"佐藤ストア"},
+{"transaction_date":"2025-08-20","slip_no":"G005","super_category_code":"A01","super_category_name":"生鮮品","category_code":"A0101","category_name":"野菜","item_code":"VEGE015","item_name":"加賀れんこん","quantity":4,"unit_price":120,"amount":480,"customer_code":"C005","customer_name":"佐藤ストア"},
+{"transaction_date":"2025-08-20","slip_no":"G005","super_category_code":"A01","super_category_name":"生鮮品","category_code":"A0103","category_name":"卵・卵製品","item_code":"EGGS010","item_name":"だし巻き卵","quantity":2,"unit_price":200,"amount":400,"customer_code":"C005","customer_name":"佐藤ストア"},
+{"transaction_date":"2025-08-20","slip_no":"G005","super_category_code":"A05","super_category_name":"菓子","category_code":"A0501","category_name":"和菓子","item_code":"SNACK012","item_name":"きんつば","quantity":4,"unit_price":160,"amount":640,"customer_code":"C005","customer_name":"佐藤ストア"},
+{"transaction_date":"2025-08-20","slip_no":"G005","super_category_code":"A03","super_category_name":"米・穀類","category_code":"A0301","category_name":"精米","item_code":"RICE013","item_name":"北海道ゆめぴりか 5kg","quantity":1,"unit_price":2300,"amount":2300,"customer_code":"C005","customer_name":"佐藤ストア"},
+{"transaction_date":"2025-08-20","slip_no":"G005","super_category_code":"A01","super_category_name":"生鮮品","category_code":"A0101","category_name":"野菜","item_code":"VEGE016","item_name":"有機ほうれん草","quantity":3,"unit_price":90,"amount":270,"customer_code":"C005","customer_name":"佐藤ストア"},
+{"transaction_date":"2025-08-20","slip_no":"G005","super_category_code":"A04","super_category_name":"飲料","category_code":"A0401","category_name":"茶・コーヒー","item_code":"DRINK012","item_name":"京都宇治抹茶","quantity":2,"unit_price":450,"amount":900,"customer_code":"C005","customer_name":"佐藤ストア"},
+{"transaction_date":"2025-08-20","slip_no":"G005","super_category_code":"A02","super_category_name":"加工食品","category_code":"A0202","category_name":"調味料","item_code":"SEASON012","item_name":"信州そばつゆ","quantity":2,"unit_price":350,"amount":700,"customer_code":"C005","customer_name":"佐藤ストア"},
+{"transaction_date":"2025-08-20","slip_no":"G005","super_category_code":"A02","super_category_name":"加工食品","category_code":"A0201","category_name":"水産加工品","item_code":"FISH015","item_name":"さば味噌煮","quantity":1,"unit_price":480,"amount":480,"customer_code":"C005","customer_name":"佐藤ストア"},
+{"transaction_date":"2025-08-20","slip_no":"G005","super_category_code":"A03","super_category_name":"米・穀類","category_code":"A0301","category_name":"精米","item_code":"RICE014","item_name":"山形つや姫 2kg","quantity":1,"unit_price":950,"amount":950,"customer_code":"C005","customer_name":"佐藤ストア"},
+{"transaction_date":"2025-08-20","slip_no":"G005","super_category_code":"A01","super_category_name":"生鮮品","category_code":"A0103","category_name":"卵・卵製品","item_code":"EGGS011","item_name":"赤玉有精卵","quantity":1,"unit_price":280,"amount":280,"customer_code":"C005","customer_name":"佐藤ストア"},
+{"transaction_date":"2025-08-20","slip_no":"G005","super_category_code":"A02","super_category_name":"加工食品","category_code":"A0201","category_name":"水産加工品","item_code":"FISH016","item_name":"明太子","quantity":2,"unit_price":380,"amount":760,"customer_code":"C005","customer_name":"佐藤ストア"},
+{"transaction_date":"2025-08-20","slip_no":"G005","super_category_code":"A05","super_category_name":"菓子","category_code":"A0501","category_name":"和菓子","item_code":"SNACK013","item_name":"栗羊羹","quantity":3,"unit_price":200,"amount":600,"customer_code":"C005","customer_name":"佐藤ストア"},
+{"transaction_date":"2025-08-20","slip_no":"G005","super_category_code":"A03","super_category_name":"米・穀類","category_code":"A0301","category_name":"精米","item_code":"RICE015","item_name":"福井コシヒカリ 5kg","quantity":1,"unit_price":2150,"amount":2150,"customer_code":"C005","customer_name":"佐藤ストア"},
+{"transaction_date":"2025-08-20","slip_no":"G005","super_category_code":"A01","super_category_name":"生鮮品","category_code":"A0101","category_name":"野菜","item_code":"VEGE017","item_name":"九州産白菜","quantity":1,"unit_price":250,"amount":250,"customer_code":"C005","customer_name":"佐藤ストア"},
+{"transaction_date":"2025-08-20","slip_no":"G005","super_category_code":"A04","super_category_name":"飲料","category_code":"A0402","category_name":"ジュース類","item_code":"DRINK013","item_name":"山形さくらんぼジュース","quantity":2,"unit_price":280,"amount":560,"customer_code":"C005","customer_name":"佐藤ストア"},
+{"transaction_date":"2025-08-20","slip_no":"G005","super_category_code":"A02","super_category_name":"加工食品","category_code":"A0202","category_name":"調味料","item_code":"SEASON013","item_name":"香川うどんだし","quantity":1,"unit_price":420,"amount":420,"customer_code":"C005","customer_name":"佐藤ストア"},
+{"transaction_date":"2025-08-20","slip_no":"G005","super_category_code":"A02","super_category_name":"加工食品","category_code":"A0201","category_name":"水産加工品","item_code":"FISH017","item_name":"しらす干し","quantity":2,"unit_price":340,"amount":680,"customer_code":"C005","customer_name":"佐藤ストア"},
+{"transaction_date":"2025-08-20","slip_no":"G005","super_category_code":"A05","super_category_name":"菓子","category_code":"A0501","category_name":"和菓子","item_code":"SNACK014","item_name":"桜餅","quantity":4,"unit_price":130,"amount":520,"customer_code":"C005","customer_name":"佐藤ストア"},
+{"transaction_date":"2025-08-20","slip_no":"G005","super_category_code":"A03","super_category_name":"米・穀類","category_code":"A0302","category_name":"もち米","item_code":"RICE016","item_name":"佐賀もち米 3kg","quantity":1,"unit_price":950,"amount":950,"customer_code":"C005","customer_name":"佐藤ストア"},
+{"transaction_date":"2025-08-20","slip_no":"G005","super_category_code":"A02","super_category_name":"加工食品","category_code":"A0202","category_name":"調味料","item_code":"SEASON014","item_name":"広島レモン塩","quantity":2,"unit_price":300,"amount":600,"customer_code":"C005","customer_name":"佐藤ストア"},
+{"transaction_date":"2025-08-20","slip_no":"G005","super_category_code":"A02","super_category_name":"加工食品","category_code":"A0201","category_name":"水産加工品","item_code":"FISH018","item_name":"あさり佃煮","quantity":3,"unit_price":180,"amount":540,"customer_code":"C005","customer_name":"佐藤ストア"},
+{"transaction_date":"2025-08-20","slip_no":"G005","super_category_code":"A01","super_category_name":"生鮮品","category_code":"A0102","category_name":"肉類","item_code":"MEAT011","item_name":"鹿児島黒豚ロース","quantity":1,"unit_price":1200,"amount":1200,"customer_code":"C005","customer_name":"佐藤ストア"},
+{"transaction_date":"2025-08-20","slip_no":"G005","super_category_code":"A02","super_category_name":"加工食品","category_code":"A0203","category_name":"乳製品","item_code":"DAIRY005","item_name":"信州ヨーグルト","quantity":2,"unit_price":150,"amount":300,"customer_code":"C005","customer_name":"佐藤ストア"},
+{"transaction_date":"2025-08-20","slip_no":"G005","super_category_code":"A04","super_category_name":"飲料","category_code":"A0402","category_name":"ジュース類","item_code":"DRINK014","item_name":"和歌山みかんジュース","quantity":3,"unit_price":240,"amount":720,"customer_code":"C005","customer_name":"佐藤ストア"},
+{"transaction_date":"2025-08-20","slip_no":"G005","super_category_code":"A01","super_category_name":"生鮮品","category_code":"A0101","category_name":"野菜","item_code":"VEGE018","item_name":"北海道かぼちゃ","quantity":2,"unit_price":180,"amount":360,"customer_code":"C005","customer_name":"佐藤ストア"},
+{"transaction_date":"2025-08-20","slip_no":"G005","super_category_code":"A01","super_category_name":"生鮮品","category_code":"A0103","category_name":"卵・卵製品","item_code":"EGGS012","item_name":"茶碗蒸しの素","quantity":2,"unit_price":160,"amount":320,"customer_code":"C005","customer_name":"佐藤ストア"},
+{"transaction_date":"2025-08-20","slip_no":"G005","super_category_code":"A05","super_category_name":"菓子","category_code":"A0501","category_name":"和菓子","item_code":"SNACK015","item_name":"草餅","quantity":5,"unit_price":120,"amount":600,"customer_code":"C005","customer_name":"佐藤ストア"}
+]
+</ConnectString>
+				<DataProvider>JSON</DataProvider>
+			</ConnectionProperties>
+		</DataSource>
+	</DataSources>
+	<DataSets>
+		<DataSet Name="DataSet1">
+			<Fields>
+				<Field Name="transaction_date">
+					<DataField>['transaction_date']</DataField>
+				</Field>
+				<Field Name="slip_no">
+					<DataField>['slip_no']</DataField>
+				</Field>
+				<Field Name="super_category_code">
+					<DataField>['super_category_code']</DataField>
+				</Field>
+				<Field Name="super_category_name">
+					<DataField>['super_category_name']</DataField>
+				</Field>
+				<Field Name="category_code">
+					<DataField>['category_code']</DataField>
+				</Field>
+				<Field Name="category_name">
+					<DataField>['category_name']</DataField>
+				</Field>
+				<Field Name="item_code">
+					<DataField>['item_code']</DataField>
+				</Field>
+				<Field Name="item_name">
+					<DataField>['item_name']</DataField>
+				</Field>
+				<Field Name="quantity">
+					<DataField>quantity</DataField>
+				</Field>
+				<Field Name="unit_price">
+					<DataField>['unit_price']</DataField>
+				</Field>
+				<Field Name="amount">
+					<DataField>amount</DataField>
+				</Field>
+				<Field Name="customer_code">
+					<DataField>['customer_code']</DataField>
+				</Field>
+				<Field Name="customer_name">
+					<DataField>['customer_name']</DataField>
+				</Field>
+			</Fields>
+			<Query>
+				<CommandText>$.[*]</CommandText>
+				<DataSourceName>DataSource1</DataSourceName>
+			</Query>
+		</DataSet>
+	</DataSets>
+</Report>

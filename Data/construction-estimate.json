@@ -1,0 +1,152 @@
+{
+  "estimates": [
+    {
+      "estimateNo": "EST-2026-0142",
+      "issueDate": "2026-07-01",
+      "expiryDate": "2026-07-31",
+      "projectName": "紫山邸 新築工事",
+      "constructionSite": "宮城県仙台市泉区紫山3-1-4",
+      "constructionPeriodStart": "2026-09-01",
+      "constructionPeriodEnd": "2027-03-31",
+      "clientId": "C001",
+      "contractorId": "M001",
+      "managerId": "P001"
+    },
+    {
+      "estimateNo": "EST-2026-0143",
+      "issueDate": "2026-07-02",
+      "expiryDate": "2026-08-01",
+      "projectName": "青葉ビル 内装リフォーム工事",
+      "constructionSite": "宮城県仙台市青葉区一番町2-3-4",
+      "constructionPeriodStart": "2026-08-10",
+      "constructionPeriodEnd": "2026-10-31",
+      "clientId": "C002",
+      "contractorId": "M001",
+      "managerId": "P002"
+    },
+    {
+      "estimateNo": "EST-2026-0144",
+      "issueDate": "2026-07-03",
+      "expiryDate": "2026-08-02",
+      "projectName": "泉中央倉庫 新築工事",
+      "constructionSite": "宮城県仙台市泉区泉中央1-2-3",
+      "constructionPeriodStart": "2026-10-01",
+      "constructionPeriodEnd": "2027-02-28",
+      "clientId": "C003",
+      "contractorId": "M001",
+      "managerId": "P003"
+    }
+  ],
+  "estimateDetails": [
+    { "estimateNo": "EST-2026-0142", "category": "仮設工事", "item": "仮設足場設置", "unit": "式", "quantity": 1, "unitPrice": 280000, "amount": 280000 },
+    { "estimateNo": "EST-2026-0142", "category": "仮設工事", "item": "養生シート", "unit": "式", "quantity": 1, "unitPrice": 120000, "amount": 120000 },
+    { "estimateNo": "EST-2026-0142", "category": "仮設工事", "item": "仮設電気・給水", "unit": "式", "quantity": 1, "unitPrice": 80000, "amount": 80000 },
+    { "estimateNo": "EST-2026-0142", "category": "基礎工事", "item": "掘削・残土処分", "unit": "m3", "quantity": 45, "unitPrice": 8500, "amount": 382500 },
+    { "estimateNo": "EST-2026-0142", "category": "基礎工事", "item": "配筋・型枠", "unit": "m2", "quantity": 65, "unitPrice": 6500, "amount": 422500 },
+    { "estimateNo": "EST-2026-0142", "category": "基礎工事", "item": "コンクリート打設", "unit": "m3", "quantity": 18, "unitPrice": 25000, "amount": 450000 },
+    { "estimateNo": "EST-2026-0142", "category": "木工事", "item": "土台・柱材", "unit": "式", "quantity": 1, "unitPrice": 1500000, "amount": 1500000 },
+    { "estimateNo": "EST-2026-0142", "category": "木工事", "item": "梁・桁材", "unit": "式", "quantity": 1, "unitPrice": 1800000, "amount": 1800000 },
+    { "estimateNo": "EST-2026-0142", "category": "木工事", "item": "床・壁・天井下地", "unit": "式", "quantity": 1, "unitPrice": 1500000, "amount": 1500000 },
+    { "estimateNo": "EST-2026-0142", "category": "木工事", "item": "大工手間", "unit": "式", "quantity": 1, "unitPrice": 1000000, "amount": 1000000 },
+    { "estimateNo": "EST-2026-0142", "category": "屋根工事", "item": "屋根下地", "unit": "m2", "quantity": 85, "unitPrice": 4500, "amount": 382500 },
+    { "estimateNo": "EST-2026-0142", "category": "屋根工事", "item": "ガルバリウム鋼板葺き", "unit": "m2", "quantity": 85, "unitPrice": 6500, "amount": 552500 },
+    { "estimateNo": "EST-2026-0142", "category": "屋根工事", "item": "雨樋", "unit": "式", "quantity": 1, "unitPrice": 15000, "amount": 15000 },
+    { "estimateNo": "EST-2026-0142", "category": "外装工事", "item": "外壁下地", "unit": "m2", "quantity": 145, "unitPrice": 3500, "amount": 507500 },
+    { "estimateNo": "EST-2026-0142", "category": "外装工事", "item": "サイディング張り", "unit": "m2", "quantity": 145, "unitPrice": 6500, "amount": 942500 },
+    { "estimateNo": "EST-2026-0142", "category": "内装工事", "item": "フローリング張り", "unit": "m2", "quantity": 95, "unitPrice": 8500, "amount": 807500 },
+    { "estimateNo": "EST-2026-0142", "category": "内装工事", "item": "クロス張り", "unit": "m2", "quantity": 320, "unitPrice": 1800, "amount": 576000 },
+    { "estimateNo": "EST-2026-0142", "category": "内装工事", "item": "天井仕上げ", "unit": "m2", "quantity": 95, "unitPrice": 4500, "amount": 427500 },
+    { "estimateNo": "EST-2026-0142", "category": "内装工事", "item": "巾木・廻縁", "unit": "式", "quantity": 1, "unitPrice": 389000, "amount": 389000 },
+    { "estimateNo": "EST-2026-0142", "category": "建具工事", "item": "玄関ドア", "unit": "箇所", "quantity": 1, "unitPrice": 320000, "amount": 320000 },
+    { "estimateNo": "EST-2026-0142", "category": "建具工事", "item": "サッシ・窓ガラス", "unit": "式", "quantity": 1, "unitPrice": 680000, "amount": 680000 },
+    { "estimateNo": "EST-2026-0142", "category": "建具工事", "item": "室内建具", "unit": "箇所", "quantity": 12, "unitPrice": 29200, "amount": 350400 },
+    { "estimateNo": "EST-2026-0142", "category": "電気設備工事", "item": "配線・分電盤", "unit": "式", "quantity": 1, "unitPrice": 480000, "amount": 480000 },
+    { "estimateNo": "EST-2026-0142", "category": "電気設備工事", "item": "照明器具", "unit": "式", "quantity": 1, "unitPrice": 350000, "amount": 350000 },
+    { "estimateNo": "EST-2026-0142", "category": "電気設備工事", "item": "コンセント・スイッチ", "unit": "式", "quantity": 1, "unitPrice": 270000, "amount": 270000 },
+    { "estimateNo": "EST-2026-0142", "category": "給排水設備工事", "item": "給水・給湯配管", "unit": "式", "quantity": 1, "unitPrice": 380000, "amount": 380000 },
+    { "estimateNo": "EST-2026-0142", "category": "給排水設備工事", "item": "排水配管", "unit": "式", "quantity": 1, "unitPrice": 280000, "amount": 280000 },
+    { "estimateNo": "EST-2026-0142", "category": "給排水設備工事", "item": "衛生器具", "unit": "式", "quantity": 1, "unitPrice": 690000, "amount": 690000 },
+    { "estimateNo": "EST-2026-0142", "category": "諸経費", "item": "現場管理費", "unit": "式", "quantity": 1, "unitPrice": 500000, "amount": 500000 },
+    { "estimateNo": "EST-2026-0142", "category": "諸経費", "item": "一般管理費", "unit": "式", "quantity": 1, "unitPrice": 400000, "amount": 400000 },
+
+    { "estimateNo": "EST-2026-0143", "category": "仮設工事", "item": "養生工事", "unit": "式", "quantity": 1, "unitPrice": 180000, "amount": 180000 },
+    { "estimateNo": "EST-2026-0143", "category": "仮設工事", "item": "廃材搬出", "unit": "式", "quantity": 1, "unitPrice": 220000, "amount": 220000 },
+    { "estimateNo": "EST-2026-0143", "category": "解体工事", "item": "既存内装解体", "unit": "m2", "quantity": 180, "unitPrice": 3500, "amount": 630000 },
+    { "estimateNo": "EST-2026-0143", "category": "解体工事", "item": "設備解体・撤去", "unit": "式", "quantity": 1, "unitPrice": 280000, "amount": 280000 },
+    { "estimateNo": "EST-2026-0143", "category": "内装工事", "item": "軽鉄下地", "unit": "m2", "quantity": 180, "unitPrice": 4500, "amount": 810000 },
+    { "estimateNo": "EST-2026-0143", "category": "内装工事", "item": "ボード張り", "unit": "m2", "quantity": 180, "unitPrice": 3200, "amount": 576000 },
+    { "estimateNo": "EST-2026-0143", "category": "内装工事", "item": "クロス張り", "unit": "m2", "quantity": 480, "unitPrice": 1800, "amount": 864000 },
+    { "estimateNo": "EST-2026-0143", "category": "内装工事", "item": "フロアタイル張り", "unit": "m2", "quantity": 180, "unitPrice": 5500, "amount": 990000 },
+    { "estimateNo": "EST-2026-0143", "category": "内装工事", "item": "システム天井", "unit": "m2", "quantity": 180, "unitPrice": 6800, "amount": 1224000 },
+    { "estimateNo": "EST-2026-0143", "category": "建具工事", "item": "スチール製建具", "unit": "箇所", "quantity": 8, "unitPrice": 85000, "amount": 680000 },
+    { "estimateNo": "EST-2026-0143", "category": "建具工事", "item": "パーティション", "unit": "m2", "quantity": 45, "unitPrice": 12000, "amount": 540000 },
+    { "estimateNo": "EST-2026-0143", "category": "電気設備工事", "item": "LED照明器具", "unit": "台", "quantity": 32, "unitPrice": 18500, "amount": 592000 },
+    { "estimateNo": "EST-2026-0143", "category": "電気設備工事", "item": "配線・配管", "unit": "式", "quantity": 1, "unitPrice": 480000, "amount": 480000 },
+    { "estimateNo": "EST-2026-0143", "category": "電気設備工事", "item": "コンセント増設", "unit": "箇所", "quantity": 24, "unitPrice": 12000, "amount": 288000 },
+    { "estimateNo": "EST-2026-0143", "category": "空調設備工事", "item": "業務用エアコン", "unit": "台", "quantity": 4, "unitPrice": 380000, "amount": 1520000 },
+    { "estimateNo": "EST-2026-0143", "category": "空調設備工事", "item": "換気設備", "unit": "式", "quantity": 1, "unitPrice": 320000, "amount": 320000 },
+    { "estimateNo": "EST-2026-0143", "category": "給排水設備工事", "item": "給湯室リフォーム", "unit": "式", "quantity": 1, "unitPrice": 480000, "amount": 480000 },
+    { "estimateNo": "EST-2026-0143", "category": "給排水設備工事", "item": "トイレ改修", "unit": "箇所", "quantity": 2, "unitPrice": 350000, "amount": 700000 },
+    { "estimateNo": "EST-2026-0143", "category": "諸経費", "item": "現場管理費", "unit": "式", "quantity": 1, "unitPrice": 400000, "amount": 400000 },
+    { "estimateNo": "EST-2026-0143", "category": "諸経費", "item": "一般管理費", "unit": "式", "quantity": 1, "unitPrice": 350000, "amount": 350000 },
+
+    { "estimateNo": "EST-2026-0144", "category": "仮設工事", "item": "仮設足場・養生", "unit": "式", "quantity": 1, "unitPrice": 850000, "amount": 850000 },
+    { "estimateNo": "EST-2026-0144", "category": "仮設工事", "item": "仮設電気・給水", "unit": "式", "quantity": 1, "unitPrice": 180000, "amount": 180000 },
+    { "estimateNo": "EST-2026-0144", "category": "土工事", "item": "整地・掘削", "unit": "m3", "quantity": 320, "unitPrice": 4500, "amount": 1440000 },
+    { "estimateNo": "EST-2026-0144", "category": "土工事", "item": "残土処分", "unit": "m3", "quantity": 320, "unitPrice": 3800, "amount": 1216000 },
+    { "estimateNo": "EST-2026-0144", "category": "基礎工事", "item": "杭工事", "unit": "本", "quantity": 24, "unitPrice": 85000, "amount": 2040000 },
+    { "estimateNo": "EST-2026-0144", "category": "基礎工事", "item": "べた基礎", "unit": "m2", "quantity": 480, "unitPrice": 12000, "amount": 5760000 },
+    { "estimateNo": "EST-2026-0144", "category": "躯体工事", "item": "鉄骨建方", "unit": "t", "quantity": 42, "unitPrice": 180000, "amount": 7560000 },
+    { "estimateNo": "EST-2026-0144", "category": "躯体工事", "item": "鉄骨材料費", "unit": "t", "quantity": 42, "unitPrice": 220000, "amount": 9240000 },
+    { "estimateNo": "EST-2026-0144", "category": "躯体工事", "item": "デッキプレート", "unit": "m2", "quantity": 480, "unitPrice": 4500, "amount": 2160000 },
+    { "estimateNo": "EST-2026-0144", "category": "屋根工事", "item": "折板屋根", "unit": "m2", "quantity": 520, "unitPrice": 5800, "amount": 3016000 },
+    { "estimateNo": "EST-2026-0144", "category": "屋根工事", "item": "断熱材", "unit": "m2", "quantity": 520, "unitPrice": 2200, "amount": 1144000 },
+    { "estimateNo": "EST-2026-0144", "category": "外装工事", "item": "ALCパネル", "unit": "m2", "quantity": 380, "unitPrice": 8500, "amount": 3230000 },
+    { "estimateNo": "EST-2026-0144", "category": "外装工事", "item": "外部塗装", "unit": "m2", "quantity": 380, "unitPrice": 2800, "amount": 1064000 },
+    { "estimateNo": "EST-2026-0144", "category": "建具工事", "item": "オーバースライダー", "unit": "箇所", "quantity": 4, "unitPrice": 480000, "amount": 1920000 },
+    { "estimateNo": "EST-2026-0144", "category": "建具工事", "item": "スチールドア", "unit": "箇所", "quantity": 6, "unitPrice": 120000, "amount": 720000 },
+    { "estimateNo": "EST-2026-0144", "category": "電気設備工事", "item": "受変電設備", "unit": "式", "quantity": 1, "unitPrice": 1800000, "amount": 1800000 },
+    { "estimateNo": "EST-2026-0144", "category": "電気設備工事", "item": "LED照明・配線", "unit": "式", "quantity": 1, "unitPrice": 1200000, "amount": 1200000 },
+    { "estimateNo": "EST-2026-0144", "category": "給排水設備工事", "item": "給排水配管", "unit": "式", "quantity": 1, "unitPrice": 680000, "amount": 680000 },
+    { "estimateNo": "EST-2026-0144", "category": "給排水設備工事", "item": "トイレ・給湯室", "unit": "式", "quantity": 1, "unitPrice": 850000, "amount": 850000 },
+    { "estimateNo": "EST-2026-0144", "category": "諸経費", "item": "現場管理費", "unit": "式", "quantity": 1, "unitPrice": 1200000, "amount": 1200000 },
+    { "estimateNo": "EST-2026-0144", "category": "諸経費", "item": "一般管理費", "unit": "式", "quantity": 1, "unitPrice": 950000, "amount": 950000 }
+  ],
+  "clients": [
+    {
+      "clientId": "C001",
+      "name": "紫山 太郎",
+      "postalCode": "981-3205",
+      "address": "宮城県仙台市泉区紫山3-1-4",
+      "phone": "022-000-0000"
+    },
+    {
+      "clientId": "C002",
+      "name": "株式会社 青葉商事",
+      "postalCode": "980-0811",
+      "address": "宮城県仙台市青葉区一番町2-3-4",
+      "phone": "022-111-1111"
+    },
+    {
+      "clientId": "C003",
+      "name": "泉ロジスティクス株式会社",
+      "postalCode": "981-3133",
+      "address": "宮城県仙台市泉区泉中央1-2-3",
+      "phone": "022-222-2222"
+    }
+  ],
+  "contractors": [
+    {
+      "contractorId": "M001",
+      "name": "メシウス建設株式会社",
+      "postalCode": "981-3205",
+      "address": "宮城県仙台市泉区紫山3-1-4",
+      "phone": "022-000-0000"
+    }
+  ],
+  "managers": [
+    { "managerId": "P001", "name": "佐藤 健一" },
+    { "managerId": "P002", "name": "鈴木 大輔" },
+    { "managerId": "P003", "name": "田中 一郎" }
+  ]
+}
