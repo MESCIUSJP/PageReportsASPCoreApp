@@ -1,9 +1,13 @@
 # PageReportsASPCoreApp
 
 ActiveReports for .NETの**ページレポート**を使用した複数ページレイアウト帳票の実装サンプルです。
+<p align="center">
+	<img src="images/cover-page.png" alt="表紙ページ" width="30%">
+	<img src="images/summary-page.png" alt="集計ページ" width="30%">
+	<img src="images/details-page.png" alt="明細ページ"  width="30%">
+</p>
 
 ## 概要
-
 このソースコードは、MESCIUS公式技術ブログの記事シリーズに基づいて実装されています。
 
 **参考記事：**
